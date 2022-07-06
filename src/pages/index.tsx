@@ -11,7 +11,7 @@ const Home = () => {
 
         <div className="grid sm:grid-cols-2">
           <a
-            className="btn btn-primary"
+            className="btn btn-primary btn-lg"
             href="https://github.com/EnakNalla"
             target="_blank"
             rel="noreferrer"
@@ -19,7 +19,7 @@ const Home = () => {
             See my github <BsGithub className="ml-2" />
           </a>
 
-          <button className="btn">Contact</button>
+          <button className="btn btn-lg btn-secondary">Contact</button>
         </div>
       </div>
 
