@@ -1,3 +1,4 @@
+import { BsGithub } from 'react-icons/bs';
 import { FcGoogle } from 'react-icons/fc';
 import { SiMongodb, SiPrisma, SiTypescript } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
@@ -7,15 +8,25 @@ const AdaptiveYT = () => {
     <div className="">
       <div className="alert shadow-lg flex-col mb-8">
         <div className="grid md:grid-cols-2">
-          <h1 className="text-2xl text-center">Adaptive YouTube player</h1>
-          <a
-            href="https://youtubev2.enak-nalla.dev"
-            rel="noreferrer"
-            target="_blank"
-            className="btn btn-primary"
-          >
-            Visit (Requires google login)
-          </a>
+          <h1 className="text-2xl text-right">Adaptive YouTube player</h1>
+          <div>
+            <a
+              href="https://youtubev2.enak-nalla.dev"
+              rel="noreferrer"
+              target="_blank"
+              className="btn btn-primary"
+            >
+              Visit (Requires google login)
+            </a>
+            <a
+              className="btn ml-2"
+              href="https://github.com/EnakNalla/adaptive-yt-player"
+              rel="noreferrer"
+              target="_blank"
+            >
+              View code <BsGithub className="ml-2" />
+            </a>
+          </div>
         </div>
         <div className="gap-6">
           <TbBrandNextjs color="black" size="30" />

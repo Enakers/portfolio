@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BsGithub } from 'react-icons/bs';
 
 const TouchLiteracyCard = () => {
   return (
@@ -12,7 +13,15 @@ const TouchLiteracyCard = () => {
 
         <p>Educational literacy app designed for touch screens.</p>
 
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-around">
+          <a
+            className="btn ml-2"
+            href="https://github.com/EnakNalla/touch-literacy"
+            rel="noreferrer"
+            target="_blank"
+          >
+            code <BsGithub className="ml-2" />
+          </a>
           <Link href="/project/touch-literacy">
             <a className="btn">Details</a>
           </Link>

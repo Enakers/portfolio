@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BsGithub } from 'react-icons/bs';
 
 const AdaptiveYTCard = () => {
   return (
@@ -21,7 +22,16 @@ const AdaptiveYTCard = () => {
           Live app requires google login
         </span>
 
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-around">
+          <a
+            className="btn ml-2"
+            href="https://github.com/EnakNalla/adaptive-yt-player"
+            rel="noreferrer"
+            target="_blank"
+          >
+            code <BsGithub className="ml-2" />
+          </a>
+
           <Link href="/project/adaptive-yt">
             <a className="btn">Details</a>
           </Link>
