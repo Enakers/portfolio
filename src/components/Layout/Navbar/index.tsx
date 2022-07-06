@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Nav from './Nav';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   return (
@@ -34,7 +35,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="navbar-end"></div>
+      <div className="navbar-end">
+        <ThemeToggle />
+      </div>
     </div>
   );
 };
