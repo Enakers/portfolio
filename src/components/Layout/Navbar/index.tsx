@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BsGithub } from 'react-icons/bs';
 import Nav from './Nav';
 import ThemeToggle from './ThemeToggle';
 
@@ -36,6 +37,15 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end">
+        <a
+          href="https://github.com/EnakNalla"
+          target="_blank"
+          rel="noreferrer"
+          className="mr-2"
+        >
+          <BsGithub size="24" />
+        </a>
+
         <ThemeToggle />
       </div>
     </div>
