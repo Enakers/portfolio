@@ -25,8 +25,9 @@ const Home = () => {
 
       <div className="grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-rows-1">
         <TouchLiteracyCard />
-        <AdaptiveMusicCard />
+
         <AdaptiveYTCard />
+        <AdaptiveMusicCard />
       </div>
     </>
   );

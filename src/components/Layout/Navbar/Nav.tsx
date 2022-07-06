@@ -14,14 +14,14 @@ const Nav = ({ className }: Props) => {
       </li>
 
       <li>
-        <Link href="/project/adaptive-music">
-          <a>Adaptive Music</a>
+        <Link href="/project/adaptive-yt">
+          <a>Adaptive YT</a>
         </Link>
       </li>
 
       <li>
-        <Link href="/project/adaptive-yt">
-          <a>Adaptive YT</a>
+        <Link href="/project/adaptive-music">
+          <a>Adaptive Music</a>
         </Link>
       </li>
     </ul>
