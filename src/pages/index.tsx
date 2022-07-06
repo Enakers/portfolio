@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { BsGithub } from 'react-icons/bs';
 import AdaptiveMusicCard from '~/components/Cards/AdaptiveMusicCard';
 import AdaptiveYTCard from '~/components/Cards/AdaptiveYTCard';
@@ -19,7 +20,9 @@ const Home = () => {
             See my github <BsGithub className="ml-2" />
           </a>
 
-          <button className="btn btn-lg btn-secondary">Contact</button>
+          <Link href="/contact">
+            <a className="btn btn-lg btn-secondary">Contact</a>
+          </Link>
         </div>
       </div>
 
