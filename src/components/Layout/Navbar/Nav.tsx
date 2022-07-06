@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 interface Props {
   className: string;
 }
@@ -5,7 +7,23 @@ interface Props {
 const Nav = ({ className }: Props) => {
   return (
     <ul className={className}>
-      <li></li>
+      <li>
+        <Link href="/project/touch-literacy">
+          <a>Touch Literacy</a>
+        </Link>
+      </li>
+
+      <li>
+        <Link href="/project/adaptive-music">
+          <a>Adaptive Music</a>
+        </Link>
+      </li>
+
+      <li>
+        <Link href="/project/adaptive-yt">
+          <a>Adaptive YT</a>
+        </Link>
+      </li>
     </ul>
   );
 };
