@@ -1,6 +1,6 @@
 import { BsGithub } from 'react-icons/bs';
 import { FcGoogle } from 'react-icons/fc';
-import { SiMongodb, SiPrisma, SiTypescript } from 'react-icons/si';
+import { SiDocker, SiMongodb, SiPrisma, SiTypescript } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 
 const TouchLiteracy = () => {
@@ -34,6 +34,7 @@ const TouchLiteracy = () => {
           <FcGoogle size="30" />
           <SiPrisma size="30" />
           <SiMongodb color="00ED64" size="30" />
+          <SiDocker size="30" />
         </div>
       </div>
 
