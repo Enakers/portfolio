@@ -1,10 +1,10 @@
-import Link from 'next/link';
-import { BsGithub } from 'react-icons/bs';
-import { SiElectron, SiJest, SiTypescript, SiVite } from 'react-icons/si';
+import Link from "next/link";
+import {BsGithub} from "react-icons/bs";
+import {SiElectron, SiJest, SiTypescript, SiVite} from "react-icons/si";
 
 const AdaptiveMusic = () => {
   return (
-    <div className="">
+    <div>
       <div className="alert shadow-lg flex-col mb-8">
         <div className="grid md:grid-cols-2">
           <h1 className="text-2xl text-right">Touch literacy</h1>
@@ -38,7 +38,7 @@ const AdaptiveMusic = () => {
       <div className="grid md:grid-cols-2 gap-4">
         <div>
           <h2 className="text-2xl font-bold mb-2">About</h2>
-          <img src="/touch-literacy.png" alt="Touch literacy game" />
+          <img src="/adaptive-music.png" alt="Adaptive music" />
         </div>
         <div>
           <p className="mt-4">
