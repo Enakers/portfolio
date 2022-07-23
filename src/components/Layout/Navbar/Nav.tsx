@@ -1,15 +1,15 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 interface Props {
   className: string;
 }
 
-const Nav = ({ className }: Props) => {
+const Nav = ({className}: Props) => {
   return (
     <ul className={className}>
       <li>
-        <Link href="/project/touch-literacy">
-          <a>Touch Literacy</a>
+        <Link href="/project/literacy">
+          <a>Literacy</a>
         </Link>
       </li>
 

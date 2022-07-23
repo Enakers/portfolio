@@ -1,28 +1,31 @@
-import Link from 'next/link';
-import { BsGithub } from 'react-icons/bs';
+import Link from "next/link";
+import {BsGithub} from "react-icons/bs";
 
 const TouchLiteracyCard = () => {
   return (
     <div className="card bg-base-200 shadow-xl w-96">
       <figure>
-        <img src="/touch-literacy.png" alt="Touch literacy game" />
+        <img src="/literacy.png" alt="Touch literacy game" />
       </figure>
 
       <div className="card-body">
-        <h2 className="card-title">Touch Literacy</h2>
+        <h2 className="card-title">Literacy</h2>
 
-        <p>Educational literacy app designed for touch screens.</p>
+        <p>
+          Educational literacy app featuring touch keyboard or physical keyboard
+          use.
+        </p>
 
         <div className="card-actions justify-around">
           <a
             className="btn ml-2"
-            href="https://github.com/EnakNalla/touch-literacy"
+            href="https://github.com/EnakNalla/literacy"
             rel="noreferrer"
             target="_blank"
           >
             code <BsGithub className="ml-2" />
           </a>
-          <Link href="/project/touch-literacy">
+          <Link href="/project/literacy">
             <a className="btn">Details</a>
           </Link>
 

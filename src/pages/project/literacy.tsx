@@ -1,14 +1,14 @@
-import { BsGithub } from 'react-icons/bs';
-import { FcGoogle } from 'react-icons/fc';
-import { SiDocker, SiMongodb, SiPrisma, SiTypescript } from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
+import {BsGithub} from "react-icons/bs";
+import {FcGoogle} from "react-icons/fc";
+import {SiDocker, SiMongodb, SiPrisma, SiTypescript} from "react-icons/si";
+import {TbBrandNextjs} from "react-icons/tb";
 
-const TouchLiteracy = () => {
+const Literacy = () => {
   return (
-    <div className="">
+    <div>
       <div className="alert shadow-lg flex-col mb-8">
         <div className="grid md:grid-cols-2">
-          <h1 className="text-2xl text-right">Touch literacy</h1>
+          <h1 className="text-2xl text-right">Literacy</h1>
           <div>
             <a
               href="https://literacy.enak-nalla.dev"
@@ -20,7 +20,7 @@ const TouchLiteracy = () => {
             </a>
             <a
               className="btn ml-2"
-              href="https://github.com/EnakNalla/touch-literacy"
+              href="https://github.com/EnakNalla/adaptive-games/tree/master/apps/literacy"
               rel="noreferrer"
               target="_blank"
             >
@@ -41,7 +41,7 @@ const TouchLiteracy = () => {
       <div className="grid md:grid-cols-2 gap-4">
         <div>
           <h2 className="text-2xl font-bold mb-2">About</h2>
-          <img src="/touch-literacy.png" alt="Touch literacy game" />
+          <img src="/literacy.png" alt="Touch literacy game" />
         </div>
         <div>
           <p className="mt-4">
@@ -56,4 +56,4 @@ const TouchLiteracy = () => {
   );
 };
 
-export default TouchLiteracy;
+export default Literacy;
