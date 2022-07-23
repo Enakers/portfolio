@@ -7,7 +7,7 @@ const AdaptiveMusic = () => {
     <div>
       <div className="alert shadow-lg flex-col mb-8">
         <div className="grid md:grid-cols-2">
-          <h1 className="text-2xl text-right">Touch literacy</h1>
+          <h1 className="text-2xl text-right">Adaptive Music</h1>
           <div>
             <a
               className="btn btn-primary"
