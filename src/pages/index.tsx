@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import { BsGithub } from 'react-icons/bs';
-import AdaptiveMusicCard from '~/components/Cards/AdaptiveMusicCard';
-import AdaptiveYTCard from '~/components/Cards/AdaptiveYTCard';
-import TouchLiteracyCard from '~/components/Cards/TouchLiteracyCard';
+import Link from "next/link";
+import {BsGithub} from "react-icons/bs";
+import AdaptiveMusicCard from "~/components/Cards/AdaptiveMusicCard";
+import AdaptiveYTCard from "~/components/Cards/AdaptiveYTCard";
+import LiteracyCard from "~/components/Cards/LiteracyCard";
 
 const Home = () => {
   return (
@@ -27,7 +27,7 @@ const Home = () => {
       </div>
 
       <div className="grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-rows-1">
-        <TouchLiteracyCard />
+        <LiteracyCard />
 
         <AdaptiveYTCard />
         <AdaptiveMusicCard />

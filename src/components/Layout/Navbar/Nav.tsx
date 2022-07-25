@@ -8,9 +8,13 @@ const Nav = ({className}: Props) => {
   return (
     <ul className={className}>
       <li>
-        <Link href="/project/literacy">
-          <a>Literacy</a>
-        </Link>
+        <a
+          href="https://docs.enak-nalla.dev/literacy"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Literacy
+        </a>
       </li>
 
       <li>
