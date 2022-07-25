@@ -1,11 +1,13 @@
 const nextSafe = require("next-safe");
-
-console.log(process.env.NODE_ENV);
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   output: "standalone",
+  experimental: {
+    images: {
+      allowFutureImage: true
+    }
+  },
   headers: () => {
     return [
       {
