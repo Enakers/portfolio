@@ -16,10 +16,8 @@ const nextConfig = {
           ...nextSafe({
             isDev: process.env.NODE_ENV !== "production",
             contentSecurityPolicy: {
-              "script-src": [
-                "'self'",
-                "'sha256-fDVtD703YIdPFRhb6ZJE/SvcwyA7gZRWfRRM6K6r9EA='"
-              ]
+              "script-src": ["'self'", "'sha256-fDVtD703YIdPFRhb6ZJE/SvcwyA7gZRWfRRM6K6r9EA='"],
+              "connect-src": ["'self'", "https://api.emailjs.com"]
             }
           }),
           {
