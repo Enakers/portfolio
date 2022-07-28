@@ -1,26 +1,21 @@
-import Link from 'next/link';
-import { BsGithub } from 'react-icons/bs';
+import Link from "next/link";
+import {BsGithub} from "react-icons/bs";
 
 const AdaptiveYTCard = () => {
   return (
     <div className="card bg-base-200 shadow-xl w-96">
       <figure>
-        <img
-          src="/adaptive-yt-player.png"
-          alt="Adaptive YT Player video page"
-        />
+        <img src="/adaptive-yt-player.png" alt="Adaptive YT Player video page" />
       </figure>
 
       <div className="card-body">
         <h2 className="card-title">Adaptive YT Player</h2>
 
         <p>
-          YouTube app designed to help children with disabilities learn an
-          appropriate computer interface, i.e eye gaze, switch, touch.
+          YouTube app designed to help children with disabilities learn an appropriate computer
+          interface, i.e eye gaze, switch, touch.
         </p>
-        <span className="text-lg my-2 font-bold">
-          Live app requires google login
-        </span>
+        <span className="text-lg my-2 font-bold">Live app requires google login</span>
 
         <div className="card-actions justify-around">
           <a
@@ -38,7 +33,7 @@ const AdaptiveYTCard = () => {
 
           <a
             className="btn btn-primary"
-            href="https://youtubev2.enak-nalla.dev"
+            href="https://yt.enak-nalla.dev"
             target="_blank"
             rel="noreferrer"
           >
