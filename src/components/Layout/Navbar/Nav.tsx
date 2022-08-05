@@ -8,11 +8,7 @@ const Nav = ({className}: Props) => {
   return (
     <ul className={className}>
       <li>
-        <a
-          href="https://docs.enak-nalla.dev/literacy"
-          rel="noreferrer"
-          target="_blank"
-        >
+        <a href="https://docs.enak-nalla.dev/literacy" rel="noreferrer" target="_blank">
           Literacy
         </a>
       </li>
@@ -26,6 +22,11 @@ const Nav = ({className}: Props) => {
       <li>
         <Link href="/project/adaptive-music">
           <a>Adaptive Music</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/contact">
+          <a>Contact</a>
         </Link>
       </li>
     </ul>
