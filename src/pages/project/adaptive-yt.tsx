@@ -8,7 +8,7 @@ const AdaptiveYT = () => {
     <div className="">
       <div className="alert shadow-lg flex-col mb-8">
         <div className="grid md:grid-cols-2">
-          <h1 className="text-2xl text-right">Adaptive YouTube player</h1>
+          <h1 className="text-2xl text-center sm:text-right">Adaptive YouTube player</h1>
           <div>
             <a
               href="https://yt.enak-nalla.dev"
@@ -16,7 +16,7 @@ const AdaptiveYT = () => {
               target="_blank"
               className="btn btn-primary"
             >
-              Visit (Requires google login)
+              Visit (Login required)
             </a>
             <a
               className="btn ml-2"

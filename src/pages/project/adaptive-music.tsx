@@ -7,7 +7,7 @@ const AdaptiveMusic = () => {
     <div>
       <div className="alert shadow-lg flex-col mb-8">
         <div className="grid md:grid-cols-2">
-          <h1 className="text-2xl text-right">Adaptive Music</h1>
+          <h1 className="text-2xl text-center sm:text-right">Adaptive Music</h1>
           <div>
             <a
               className="btn btn-primary"
@@ -46,12 +46,10 @@ const AdaptiveMusic = () => {
             <Link href="/project/adaptive-yt">
               <a className="text-primary"> Adaptive YouTube </a>
             </Link>
-            this app accepts multiple inputs. Plays music from the local file
-            system, pausing at the designated interval. It includes a visualiser
-            library for the music. When using a switch it tracks the amount of
-            times the switch was hit while the music was playing. This is useful
-            for gauging how the user is understanding the cause and effect
-            aspect.
+            this app accepts multiple inputs. Plays music from the local file system, pausing at the
+            designated interval. It includes a visualiser library for the music. When using a switch
+            it tracks the amount of times the switch was hit while the music was playing. This is
+            useful for gauging how the user is understanding the cause and effect aspect.
           </p>
         </div>
       </div>
