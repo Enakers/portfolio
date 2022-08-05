@@ -2,7 +2,6 @@ const nextSafe = require("next-safe");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "standalone",
   experimental: {
     images: {
       allowFutureImage: true
