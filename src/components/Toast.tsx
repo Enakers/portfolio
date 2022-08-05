@@ -19,7 +19,7 @@ const Toast = ({title, type, body}: Props) => {
   }, []);
 
   return (
-    <div className={`card bg-${type}`}>
+    <div className={`card bg-${type} z-50`}>
       <progress className="progress" value="0" max="100" ref={progress} />
       <div className="card-body">
         <h2 className="card-title text-black">{title}</h2>

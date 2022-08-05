@@ -37,7 +37,7 @@ const Contact = () => {
     try {
       const result = await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        // process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         // @ts-ignore
         values,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
@@ -60,7 +60,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="card w-6/12 bg-base-100 shadow-xl mx-auto">
+      <div className="card w-11/12 sm:w-8/12 lg:w-6/12 bg-base-100 shadow-xl mx-auto">
         <form onSubmit={onSubmit} className="card-body">
           <h2 className="card-title justify-center">Contact</h2>
           <div className="form-control">
