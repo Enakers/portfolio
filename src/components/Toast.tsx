@@ -3,7 +3,7 @@ import {useCallback} from "react";
 interface Props {
   title: string;
   body?: string;
-  type: "success" | "error" | "warning" | "info";
+  type: "bg-success" | "bg-error" | "bg-warning" | "bg-info";
 }
 
 const Toast = ({title, type, body}: Props) => {
@@ -19,7 +19,7 @@ const Toast = ({title, type, body}: Props) => {
   }, []);
 
   return (
-    <div className={`card bg-${type} z-50`}>
+    <div className={`card ${type} z-50`}>
       <progress className="progress" value="0" max="100" ref={progress} />
       <div className="card-body">
         <h2 className="card-title text-black">{title}</h2>

@@ -37,7 +37,7 @@ const Contact = () => {
     try {
       const result = await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        // process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         // @ts-ignore
         values,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
@@ -143,9 +143,9 @@ const Contact = () => {
       </div>
 
       <div className="absolute bottom-4 right-4">
-        {toastError && <Toast title="Error" type="error" body={toastError} />}
+        {toastError && <Toast title="Error" type="bg-error" body={toastError} />}
 
-        {toastSuccess && <Toast title="Email sent successfully" type="success" />}
+        {toastSuccess && <Toast title="Email sent successfully" type="bg-success" />}
       </div>
     </>
   );
